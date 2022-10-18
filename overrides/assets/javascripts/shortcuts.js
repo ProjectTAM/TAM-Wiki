@@ -37,14 +37,14 @@ keyboard$.subscribe(function (key) {
         });
         key.claim();
     }
-    if (key.mode === "global" && key.type === "u") {
-        window.scrollByPages(-1);
-        key.claim();
-    }
-    if (key.mode === "global" && key.type === "d") {
-        window.scrollByPages(1);
-        key.claim();
-    }
+    // if (key.mode === "global" && key.type === "u") {
+    //     window.scrollByPages(-1);
+    //     key.claim();
+    // }
+    // if (key.mode === "global" && key.type === "d") {
+    //     window.scrollByPages(1);
+    //     key.claim();
+    // }
     if (key.mode === "global" && key.type === "g") {
         window.scrollTo({
             top: 0,
