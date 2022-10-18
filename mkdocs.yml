@@ -1,5 +1,5 @@
-site_name: TAM 知识库
-site_description: ProjectTAM 知识库主框架
+site_name: ProjectTAM
+site_description: ProjectTAM 知识库主体框架
 site_author: ProjectTAM
 site_url: https://projecttam.com
 copyright: Copyright © 2013 - 2022 ProjectTAM. All Rights Reserved.
@@ -31,6 +31,29 @@ theme:
     logo: material/bash
   favicon: assets/images/favicon.png
 
+  features:
+    # 导航栏配置
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - navigation.sections
+    # - navigation.expand
+    - navigation.indexes
+
+    # 目录树配置
+    - toc.follow
+    # - toc.integrate
+
+    # 搜索配置
+    - search.suggest
+    - search.highlight
+
+    # 顶部公告已阅读状态
+    - announce.dismiss
+
 extra_javascript:
   - assets/javascripts/shortcuts.js
   - assets/stylesheets/extra.css
@@ -38,11 +61,12 @@ extra_javascript:
 extra:
   # 站点主页地址
   homepage: https://projecttam.com
+  generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ProjectTAM/TAM-Wiki
+      link: https://github.com/orgs/ProjectTAM
     - icon: fontawesome/solid/paper-plane
-      link: mailto:hello@liyangxia.com
+      link: mailto:admin@projecttam.com
 
 plugins:
   - search:
@@ -66,11 +90,9 @@ markdown_extensions:
       anchor_linenums: true
       use_pygments: true
   - pymdownx.inlinehilite
-  - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.smartsymbols
   - pymdownx.snippets
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.tasklist:
@@ -81,3 +103,8 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
