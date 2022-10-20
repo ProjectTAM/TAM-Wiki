@@ -13,5 +13,5 @@ hide:
 
 | 课程名 | 当前进展情况 | 最后更新列表 | 项目地址 | 最新版本 |
 | :--- | :--- | :--- | :--- | :--- |
-| 100 小时候请叫我 K8s 管理员 | 开刊 | 暂无 | [主页](100h-k8s.projecttam.com) | v0.1 |
-| 100 小时候请叫我 DBA 管理员 | 开刊 | 暂无 | [主页](100h-dba.projecttam.com) | v0.1 |
+| 100 小时候请叫我 K8s 管理员 | 开刊 | 暂无 | <a href="https://100h-k8s.projecttam.com">主页</a> | v0.1 |
+| 100 小时候请叫我 DBA 管理员 | 开刊 | 暂无 | <a href="https://100h-dba.projecttam.com">主页</a> | v0.1 |
