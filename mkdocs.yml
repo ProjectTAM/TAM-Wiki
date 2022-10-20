@@ -4,6 +4,10 @@ site_author: ProjectTAM
 site_url: https://projecttam.com
 copyright: Copyright © 2013 - 2022 ProjectTAM. All Rights Reserved.
 
+repo_url: https://github.com/ProjectTAM/TAM-Wiki
+repo_name: ProjectTAM/TAM-Wiki
+edit_uri: ""
+
 nav:
   - Home: 
     - Home: index.md
@@ -29,6 +33,7 @@ theme:
   # 定义站点图标
   icon:
     logo: material/bash
+    repo: fontawesome/brands/github
   favicon: assets/images/favicon.png
 
   features:
