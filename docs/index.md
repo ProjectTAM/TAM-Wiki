@@ -13,5 +13,5 @@ hide:
 
 | 课程名 | 当前文章数量 | 最新更新列表 | 项目地址 |
 | :--- | :--- | :--- | :--- |
-| 100 小时后请叫我 K8s 管理员 | 1 | <a href="https://100h-k8s.projecttam.com/chapter04/">使用 Minikube 搭建单节点集群</a>  | <a href="https://github.com/ProjectTAM/100H-K8s">ProjectTAM/100H-K8s</a> |
+| 100 小时后请叫我 K8s 管理员 | 11 | <a href="https://100h-k8s.projecttam.com/chapter04/">使用 Minikube 搭建单节点集群</a>  | <a href="https://github.com/ProjectTAM/100H-K8s">ProjectTAM/100H-K8s</a> |
 | 100 小时后请叫我 DBA 管理员 | 0 | 暂无 | <a href="https://github.com/ProjectTAM/100H-DBA">ProjectTAM/100H-DBA</a> |
