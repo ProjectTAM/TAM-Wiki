@@ -3,9 +3,10 @@
 # Default: latest
 
 # Upgrade all requirements
-pip list --format=columns \
-    | awk 'NR>=3 {print $1}' \
-    | xargs python -m pip install --upgrade
+pip list --format=columns --outdated \
+    | cut -f1 -d ' ' \
+    | awk '{if(NR>=3)print}' \
+    | xargs -n 1 python -m pip install --upgrade
 
 # Freeze to requirements.txt
 pip freeze > requirements.txt
